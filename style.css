@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+select,
+textarea {
+    width: 100%;
+    border-radius: 3px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button[type="button"] {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button[type="button"]:hover {
+    background-color: #3367d6;
+}
+
+#translate-btn:active {
+    transform: translateY(2px);
+}
+
+#target-text {
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ccc;
+}
