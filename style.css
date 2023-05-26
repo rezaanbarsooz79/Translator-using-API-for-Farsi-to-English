@@ -4,43 +4,46 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 form {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 5px;
     background-color: #f8f9fa;
+    border-radius: 30px;
 }
 
 label {
     display: block;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 select,
 textarea {
-    width: 100%;
+    width: 95%;
     border-radius: 3px;
     padding: 12px;
     border: 1px solid #ccc;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 button[type="button"] {
     background-color: #4285f4;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 12px;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    margin: 0 auto;
+    width: 90%;
 }
 
 button[type="button"]:hover {
