@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Translation</title>
+    <style>
+        /* Some basic styling */
+        body {
+            background-color: #F5F5F5;
+            font-family: sans-serif;
+        }
+
+        label,
+        input,
+        button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Translation</h1>
+    <form>
+        <label for="source-language">Source Language:</label>
+        <select name="source-language" id="source-language">
+            <option value="fa">Persian</option>
+            <option value="en">English</option>
+        </select>
+
+        <label for="target-language">Target Language:</label>
+        <select name="target-language" id="target-language">
+            <option value="en">English</option>
+            <option value="fa">Persian</option>
+        </select>
+
+        <label for="source-text">Source Text:</label>
+        <textarea id="source-text" rows="5"></textarea>
+
+        <button type="button" id="translate-btn">Translate</button>
+
+        <label for="target-text">Target Text:</label>
+        <textarea id="target-text" rows="5" readonly></textarea>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
