@@ -15,7 +15,7 @@
         label,
         input,
         button {
-            display: block;
+            /* display: block; */
             margin-bottom: 10px;
         }
     </style>
@@ -24,17 +24,21 @@
 <body>
     <h1>Translation</h1>
     <form>
-        <label for="source-language">Source Language:</label>
-        <select name="source-language" id="source-language">
-            <option value="fa">Persian</option>
-            <option value="en">English</option>
-        </select>
+        <div class="lab-class">
+            <label for="source-language">Source Language</label>
+            <label for="target-language">Target Language</label>
+        </div>
+        <div class="sel-clas">
+            <select name="source-language" id="source-language">
+                <option value="fa">Persian</option>
+                <option value="en">English</option>
+            </select>
 
-        <label for="target-language">Target Language:</label>
-        <select name="target-language" id="target-language">
-            <option value="en">English</option>
-            <option value="fa">Persian</option>
-        </select>
+            <select name="target-language" id="target-language">
+                <option value="en">English</option>
+                <option value="fa">Persian</option>
+            </select>
+        </div>
 
         <label for="source-text">Source Text:</label>
         <textarea id="source-text" rows="4"></textarea>
